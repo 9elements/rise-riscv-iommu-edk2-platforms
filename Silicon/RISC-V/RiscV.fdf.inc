@@ -28,6 +28,14 @@ INF  MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRo
 INF  MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf
 INF  MdeModulePkg/Universal/PCD/Dxe/Pcd.inf
 
+INF UefiCpuPkg/CpuIo2Dxe/CpuIo2Dxe.inf
+INF MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe.inf
+INF MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf
+
+INF UefiCpuPkg/RiscVIoMmuDxe/IoMmuDxe.inf
+INF MdeModulePkg/Bus/Pci/XhciDxe/XhciDxe.inf
+INF MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf
+
 INF  MdeModulePkg/Bus/I2c/I2cDxe/I2cDxe.inf
 INF  MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
 INF  MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
