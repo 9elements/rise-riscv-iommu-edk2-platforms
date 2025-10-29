@@ -43,6 +43,7 @@
   MdeModulePkg/MdeModulePkg.dec
   UefiCpuPkg/UefiCpuPkg.dec
   Platform/RISC-V/PlatformPkg/RiscVPlatformPkg.dec
+  UefiPayloadPkg/UefiPayloadPkg.dec
 
 [Pcd]
   gUefiRiscVPlatformPkgTokenSpaceGuid.PcdTemporaryRamBase64
@@ -54,6 +55,10 @@
   gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiReservedMemoryType
   gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesData
   gEmbeddedTokenSpaceGuid.PcdMemoryTypeEfiRuntimeServicesCode
+  gUefiPayloadPkgTokenSpaceGuid.PcdPciReservedPMemBase
+  gUefiPayloadPkgTokenSpaceGuid.PcdPciReservedPMemLimit
+  gUefiPayloadPkgTokenSpaceGuid.PcdPciReservedPMemAbove4GBBase
+  gUefiPayloadPkgTokenSpaceGuid.PcdPciReservedPMemAbove4GBLimit
 
 [Ppis]
   gEfiSecHobDataPpiGuid
@@ -61,3 +66,5 @@
 [Guids]
   gFdtHobGuid
   gEfiMemoryTypeInformationGuid
+  gUniversalPayloadPciRootBridgeInfoGuid
+  gUplPciSegmentInfoHobGuid
